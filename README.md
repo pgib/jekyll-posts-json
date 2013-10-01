@@ -25,9 +25,9 @@ You can configure the filename/output path in the Jekyll `_config.yml`:
 
 This file can be loaded in via any standard AJAX means.
 
-Alternative, a Liquid tag is available for embedding the contents of the generated file into your page:
+Alternatively, a Liquid tag is available for embedding the contents of the generated file into your page:
 
-```javascript
+```html
 <script type="text/javascript">
   var posts = new Backbone.Collection();
   posts.reset({% posts_json %});
