@@ -11,9 +11,9 @@ The JSON structure is as follows:
 [
   {
     date:    "2013-09-19 00:00:00 -0700",
-    url:     "/blog/2013/09/19 00:00:00 -0700",
+    url:     "/blog/2013/09/19/first-post",
     title:   "First post!",
-    excerpt: "Wherein I talk about teh first post.",
+    excerpt: "Wherein I talk about the first post.",
     tags:    [ "foo", "bar", "bat", "baz" ]
   }
 ]
